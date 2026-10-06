@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ml-salary-app
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: ml-salary-app
+
+  template:
+    metadata:
+      labels:
+        app: ml-salary-app
+
+    spec:
+      containers:
+        - name: ml-salary-container
+          image: ml-salary-app:latest
+          imagePullPolicy: Never
+
+          ports:
+            - containerPort: 5000
