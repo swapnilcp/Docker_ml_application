@@ -19,7 +19,7 @@ spec:
       containers:
         - name: ml-salary-container
           image: ml-salary-app:latest
-          imagePullPolicy: Never
+         # imagePullPolicy: Never
 
           ports:
             - containerPort: 5000

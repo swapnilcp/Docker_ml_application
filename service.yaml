@@ -4,14 +4,14 @@ kind: Service
 metadata:
   name: ml-salary-service
 
-spec:
-  type: NodePort
+spec: # specification of the service
+  type: NodePort  # 
 
   selector:
-    app: ml-salary-app
+    app: ml-salary-app # 
 
   ports:
-    - protocol: TCP
-      port: 5000
-      targetPort: 5000
+    - protocol: TCP 
+      port: 5001  # port of  
+      targetPort: 5000 # target port 
       nodePort: 30080
