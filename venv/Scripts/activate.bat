@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=F:\Odd SEM 26-27\MLOPS\Docker_ML_Application\venv
+set VIRTUAL_ENV=F:\Odd SEM 26-27\MLOPS\Prometheus\Docker_ml_application\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

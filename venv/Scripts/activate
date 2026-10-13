@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="F:\Odd SEM 26-27\MLOPS\Docker_ML_Application\venv"
+VIRTUAL_ENV="F:\Odd SEM 26-27\MLOPS\Prometheus\Docker_ml_application\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
