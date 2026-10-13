@@ -3,6 +3,7 @@ from sklearn.linear_model import LinearRegression
 import pickle
 
 # Training data
+# Any csv file as input 
 data = {
     "YearsExperience": [1, 2, 3, 4, 5],
     "Salary": [30000, 40000, 50000, 60000, 70000]
