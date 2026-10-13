@@ -12,6 +12,6 @@ spec: # specification of the service
 
   ports:
     - protocol: TCP 
-      port: 5001  # port of  
+      port: 5000  # port of  
       targetPort: 5000 # target port 
       nodePort: 30080
